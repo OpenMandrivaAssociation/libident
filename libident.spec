@@ -5,7 +5,7 @@
 Summary:	New LibIdent C library
 Name:		libident
 Version:	0.32
-Release:	%mkrel 1
+Release:	%mkrel 2
 Group:		System/Libraries
 License:	Public Domain
 URL:		http://www.remlab.net/libident/
