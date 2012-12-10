@@ -131,3 +131,35 @@ rm -rf %{buildroot}
 %{_sbindir}/in.identtestd
 %{_mandir}/man8/in.identtestd.8*
 
+
+
+%changelog
+* Fri Dec 10 2010 Oden Eriksson <oeriksson@mandriva.com> 0.32-2mdv2011.0
++ Revision: 620141
+- the mass rebuild of 2010.0 packages
+
+* Fri Jan 23 2009 Oden Eriksson <oeriksson@mandriva.com> 0.32-1mdv2009.1
++ Revision: 332801
+- import libident
+
+
+* Fri Jan 23 2009 Oden Eriksson <oeriksson@mandriva.com> 0.32-1mdv2009.1
+- initial Mandriva package (fedora import)
+
+* Tue Feb 12 2008 Andreas Thienemann <athienem@redhat.com> - 0.32-2
+- Rebuild against gcc34 with -D_GNU_SOURCE
+
+* Sat Nov 24 2007 Andreas Thienemann <andreas@bawue.net> - 0.32-1
+- Updated to 0.32, making manual .so compile unecessary
+
+* Thu Apr 26 2007 Andreas Thienemann <andreas@bawue.net> - 0.30-4
+- Included dependency for -tools subpackage
+
+* Tue Apr 03 2007 Andreas Thienemann <andreas@bawue.net> - 0.30-3
+- Build the tools against said shared library as well
+
+* Mon Apr 02 2007 Andreas Thienemann <andreas@bawue.net> - 0.30-2
+- Added shared object instead of static lib
+
+* Sat Mar 31 2007 Andreas Thienemann <andreas@bawue.net> - 0.30-1
+- Initial FE package
