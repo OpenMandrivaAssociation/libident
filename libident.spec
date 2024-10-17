@@ -8,7 +8,7 @@ Version:	0.32
 Release:	3
 Group:		System/Libraries
 License:	Public Domain
-URL:		http://www.remlab.net/libident/
+URL:		https://www.remlab.net/libident/
 Source0:	http://www.remlab.net/files/libident/libident-%{version}.tar.bz2
 Source1:	xinetd.identtest
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
